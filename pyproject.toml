@@ -1,0 +1,32 @@
+[project]
+name = "f5-tts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.0.1",
+    "aiofiles>=24.1.0",
+    "cached-path>=1.6.3",
+    "datasets>=3.0.2",
+    "ema-pytorch>=0.7.3",
+    "fastapi>=0.115.3",
+    "gradio-client>=1.4.2",
+    "jieba>=0.42.1",
+    "matplotlib>=3.9.2",
+    "numpy>=2.1.2",
+    "orjson>=3.10.10",
+    "pillow>=11.0.0",
+    "platformdirs>=4.3.6",
+    "pydub>=0.25.1",
+    "pypinyin>=0.53.0",
+    "soundfile>=0.12.1",
+    "tomli>=2.0.2",
+    "torch>=2.5.0",
+    "torchaudio>=2.5.0",
+    "torchdiffeq>=0.2.4",
+    "transformers>=4.45.2",
+    "vocos>=0.1.0",
+    "wandb>=0.18.5",
+    "x-transformers>=1.40.4",
+]
